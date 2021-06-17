@@ -1,23 +1,11 @@
+
 module.exports = {
   siteMetadata: {
     title: "My Gatsby Site",
   },
-  plugins: [
-    {
-      resolve: "gatsby-source-wordpress",
-      options: {
-        url: "https://abhishekalekar.github.io/",
-      },
-    },
+  plugins: [    
     "gatsby-plugin-theme-ui",
-    "gatsby-plugin-gatsby-cloud",
-    "gatsby-plugin-image",
-    {
-      resolve: "gatsby-plugin-google-analytics",
-      options: {
-        trackingId: "",
-      },
-    },
+    "gatsby-plugin-gatsby-cloud",    
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
     {
