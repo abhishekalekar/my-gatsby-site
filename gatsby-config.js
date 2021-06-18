@@ -2,7 +2,7 @@
 module.exports = {
   siteMetadata: {
     title: "My Gatsby Site",
-    siteUrl: "mygatsbysitemain85525.gatsbyjs.io",
+    siteUrl: "https://mygatsbysitemain85525.gatsbyjs.io",
     
   },
   plugins: [    
