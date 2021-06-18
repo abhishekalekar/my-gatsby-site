@@ -2,6 +2,8 @@
 module.exports = {
   siteMetadata: {
     title: "My Gatsby Site",
+    siteUrl: "mygatsbysitemain85525.gatsbyjs.io",
+    
   },
   plugins: [    
     "gatsby-plugin-theme-ui",
